@@ -1,0 +1,15 @@
+.projects {
+  /* border: 1px solid white; */
+  margin: 1rem 10%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
