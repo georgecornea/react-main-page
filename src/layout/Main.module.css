@@ -4,6 +4,11 @@
   align-items: center; */
   /*text-align: center; */
   /* background-color: #959794; */
+
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat();
+
   background: radial-gradient(
     circle at 90%,
     #697184,

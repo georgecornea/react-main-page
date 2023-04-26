@@ -5,12 +5,17 @@ import { NotFound } from './pages/NotFound';
 import { Navbar } from './layout/Navbar';
 import { Main } from './layout/Main';
 import { Footer } from './layout/Footer';
+import { MusicAlbums } from './projects/music-albums/MusicAlbums';
 
 const location = new ReactLocation();
 const routes = [
   {
     path: '/',
     element: <Home />,
+  },
+  {
+    path: '/music-albums',
+    element: <MusicAlbums />,
   },
   {
     path: '/about',
