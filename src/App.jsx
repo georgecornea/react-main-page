@@ -3,6 +3,8 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { NotFound } from './pages/NotFound';
 import { Navbar } from './layout/Navbar';
+import { Main } from './layout/Main';
+import { Footer } from './layout/Footer';
 
 const location = new ReactLocation();
 const routes = [
@@ -24,7 +26,10 @@ function App() {
   return (
     <Router routes={routes} location={location}>
       <Navbar />
-      <Outlet />
+      <Main>
+        <Outlet />
+      </Main>
+      <Footer />
     </Router>
   );
 }
