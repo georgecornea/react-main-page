@@ -1,7 +1,7 @@
 .project {
   display: inline-block;
   color: #fff;
-  border: 1px solid #0f1417;
+  border: 1px solid #ba3cd6;
   width: 20rem;
   height: 7rem;
   text-decoration: none;
@@ -12,7 +12,14 @@
 }
 
 .project:hover {
-  filter: drop-shadow(8px 8px 10px rgb(237, 232, 232));
-  border: 1px solid white;
-  opacity: 0.6;
+  filter: drop-shadow(4px 4px 20px rgb(237, 232, 232));
+  border: 1px solid #ba3cd6;
+  opacity: 0.9;
+}
+
+.project h1 {
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
 }
