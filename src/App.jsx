@@ -6,6 +6,7 @@ import { Navbar } from './layout/Navbar';
 import { Main } from './layout/Main';
 import { Footer } from './layout/Footer';
 import { MusicAlbums } from './projects/music-albums/MusicAlbums';
+import { RandomPhotosBoard } from './projects/random-photos-board/components/RandomPhotosBoard';
 
 const location = new ReactLocation();
 const routes = [
@@ -16,6 +17,10 @@ const routes = [
   {
     path: '/music-albums',
     element: <MusicAlbums />,
+  },
+  {
+    path: '/random-photos-board',
+    element: <RandomPhotosBoard />,
   },
   {
     path: '/about',

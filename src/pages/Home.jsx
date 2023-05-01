@@ -13,6 +13,12 @@ export const Home = () => {
         description='Select a music album to get cover image and tracks info'
         onClick={() => setProject('Music Albums')}
       />
+      <Project
+        name='Random Photos Board'
+        to='/random-photos-board'
+        description='Generate random images on the board. Swap images, remove and new ones.'
+        onClick={() => setProject('Random Photos Board')}
+      />
     </Projects>
   );
 };
